@@ -1,0 +1,12 @@
+[
+    {
+        "id": "CVE-2024-0001",
+        "severity": "CRITICAL",
+        "description": "A remote code execution vulnerability exists in the core authentication module."
+    },
+    {
+        "id": "CVE-2024-0002",
+        "severity": "HIGH",
+        "description": "SQL injection flaw found in the user login parameter allowing unauthorized database access."
+    }
+]
