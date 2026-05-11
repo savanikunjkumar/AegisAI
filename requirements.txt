@@ -1,1 +1,30 @@
+# Author - Kunjkumar Savani
+# MIT2026 Licensee
 
+# ---------------------------------------------------
+# 1. RAG & Database Integrations
+# ---------------------------------------------------
+pinecone-client>=3.0.0      # Vector database for semantic threat retrieval
+neo4j>=5.14.1               # Graph database for Neural GraphRAG mapping
+sentence-transformers>=2.2.2 # Local embedding models for threat intelligence
+
+# ---------------------------------------------------
+# 2. LLM & Agent Framework
+# ---------------------------------------------------
+openai>=1.12.0              # API client for the core Security Agent
+langchain>=0.1.0            # Optional: For advanced prompt chaining and memory
+python-dotenv>=1.0.0        # Secure environment variable loading for API keys
+
+# ---------------------------------------------------
+# 3. Explainability & Machine Learning
+# ---------------------------------------------------
+numpy>=1.24.3               # Core mathematical operations
+shap>=0.44.0                # Game-theory feature importance for anomaly logs
+lime>=0.2.0.1               # Local interpretable explanations for text/LLM outputs
+scikit-learn>=1.3.0         # Base ML utilities for the Zero-Trust simulated models
+
+# ---------------------------------------------------
+# 4. Backend & API (Optional for Headless Deployment)
+# ---------------------------------------------------
+fastapi>=0.109.0            # High-performance API framework
+uvicorn>=0.27.0             # ASGI server to run the FastAPI endpoints
