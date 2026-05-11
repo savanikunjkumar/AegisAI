@@ -1,0 +1,56 @@
+# Author - Kunjkumar Savani
+# MIT2026 Licensee
+
+# ---------------------------------------------------
+# 1. Python & Virtual Environments
+# ---------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env_venv/
+.venv/
+lib/
+lib64/
+
+# ---------------------------------------------------
+# 2. Security & API Keys (CRITICAL)
+# ---------------------------------------------------
+# Never push your API keys to GitHub!
+.env
+secrets.json
+config.ini
+*.pem
+*.key
+
+# ---------------------------------------------------
+# 3. Data & Machine Learning Files
+# ---------------------------------------------------
+# Ignore the data folder entirely so you don't push massive log files or CVEs
+data/
+*.csv
+*.json
+*.sqlite
+*.db
+*.log
+
+# Ignore vector database indexes and graph data
+*.faiss
+*.index
+neo4j_data/
+
+# Ignore ML model weights and checkpoints
+*.pt
+*.pth
+*.h5
+*.pkl
+models/
+
+# ---------------------------------------------------
+# 4. IDE & OS Specific Files
+# ---------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+.ipynb_checkpoints/
