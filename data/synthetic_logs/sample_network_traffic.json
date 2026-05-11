@@ -1,0 +1,22 @@
+[
+    {
+        "event_id": "EVT-9001",
+        "timestamp": "2026-05-11T08:15:00Z",
+        "user": "admin_kunj",
+        "ip_address": "192.168.1.50",
+        "action": "LOGIN_SUCCESS",
+        "payload_size_bytes": 256,
+        "failed_login_attempts": 0,
+        "location": "Bhavnagar, IN"
+    },
+    {
+        "event_id": "EVT-9002",
+        "timestamp": "2026-05-11T08:16:30Z",
+        "user": "guest_04",
+        "ip_address": "45.33.22.11",
+        "action": "DATA_DOWNLOAD",
+        "payload_size_bytes": 15000000, 
+        "failed_login_attempts": 5,
+        "location": "Unknown, RU"
+    }
+]
